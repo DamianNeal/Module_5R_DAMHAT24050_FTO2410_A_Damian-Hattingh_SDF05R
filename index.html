@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic Buttons</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="style2.css"> 
+    <link rel="stylesheet" href="style3.css"> 
 </head>
 <body>
     <h1>✨ Style Your Buttons ✨</h1>
     <p>Apply custom styles to your button in the Style.css file</p>
    
-    <div class="box-1">
+    <!-- Container for all buttons -->
+    <div id="box-1">
+        <!-- First custom button -->
         <button class="custom-btn-1">Click Here</button>
-        <div id="wrapper">
-            <a href="#" class="custom-btn-2">
-              <div class="dots-container">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-              </div>
-              <span>Click Here</span>
-          <div class="custom-btn-3">
-            <button class="button">Click  Here</a>
-          </div>
+        
+        <!-- Link styled as a custom button with animated border effects -->
+        <div id="custom-btn-2">
+            <span id="a"></span>
+            <span id="b"></span>
+            <span id="c"></span>
+            <span id="d"></span>
+            Click Here 
+        </div>
+
+        <!-- Wrapper for the third button to maintain alignment -->
+        <div>
+            <button class="custom-btn-3">Click Here</button>
+        </div>
+    </div>     
 </body>
 </html>

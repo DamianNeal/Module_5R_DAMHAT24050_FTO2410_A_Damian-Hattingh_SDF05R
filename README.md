@@ -1,40 +1,19 @@
-# [SDF05] CSS Magic Buttons
+Overview
+This project gave me a chance to tackle techniques and concepts I hadn’t yet mastered, and I found a lot of inspiration, help, and ideas from different resources and websites. What seemed like a straightforward task at first turned out to have more layers, especially when it came to getting the alignment just right, not only for the buttons themselves but also for their interactive aspects.
 
-Get ready to create animated buttons using CSS! This project focuses on creating three unique animated buttons using CSS. With this challenge, you'll dive into the world of CSS animations, transitions, and interactivity.
+Challenges & Learning Points
 
-## Learning Goals
+1. Alignment Issues
+Getting everything perfectly aligned was a bit of a challenge, especially with how the interactive parts responded. I initially struggled with Flexbox, which wasn’t behaving as expected. After some troubleshooting, I figured out that specificity was causing the problem, so I ended up learning a lot more about specificity than I had planned.
 
-By completing this project, you will learn to:
+2. Before & After Pseudo-Elements
+I found working with ::before and ::after to be a bit tricky but essential to achieving the effects I had in mind. It took some trial and error, but I learned a lot about how these pseudo-elements work and how to use them effectively.
 
-- Design engaging button animations with CSS.
-- Master the use of CSS transitions and animations for interactive effects.
+3. Keyframes
+Adding animations with @keyframes was another interesting part of the project. Experimenting with different properties to make the buttons feel smooth and polished was a challenge, but in the end, it was rewarding to see the result.
 
-![alt text](./images/image.png)
+4. Flexbox & Specificity
+Flexbox gave me some unexpected issues, and after diving into it, I realized specificity was at play. This experience helped me understand CSS specificity much better and taught me how to approach styling more effectively.
 
-## Project Overview
-
-### Time Estimate: 2 hours
-
-## What you Need to Do:
-
-1. **Starter Code**: Clone the starter code from GitHub for your project. The HTML structure is provided, and you'll focus on adding styles in the `style.css` file.
-
-    - Starter code can be found here: https://github.com/CodeSpace-Academy/Module_5R_StudentNo_Classcode_Group_Name-Surname_SDF05R
-
-2. **Write your CSS Styles**: Create your animations from scratch. Need a hint of inspiration? You're welcome to go through our curated buttons for inspiration: [View Reference](https://codepen.io/codespace-academy/pen/xxmWrjX). 
-
-3. **Prepare Your Repository**: 
-    - Save all chanes and update your GitHub repository with the final versions of all files.
-    - Include a `README.md` file that outlines the project, your design choices, and any notes on challenges you faced or features you're particularly proud of.
-    - Ensure your repository is set to public so it can be accessed by your code coach.
-
-4. **Submit on LMS**:
-    - Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
-
-
-## Submission Guidelines
-- Submit the link to your GitHub repository on the LMS under the project tab.
-
-Embark on this CSS journey to transform simple buttons into interactive, animated elements. Let your creativity shine and enjoy the process of bringing static elements to life!
+Final Thoughts
+In the end, I’m proud of how these buttons turned out. It was a great learning experience, and I feel like I came out of it with more skills and confidence to tackle similar projects. I’m happy with the final result and excited to keep building on what I’ve learned here.
